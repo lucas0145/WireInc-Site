@@ -1,0 +1,289 @@
+
+/*Formatação de texto*/
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.txtBarSel{
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.tYellow{color: #FFE241;}
+.txtInicio{
+    font-size: 97px;
+}
+p{
+    margin-left: 3%;
+    margin-right: 1%;
+}
+.contateTxt{font-size: 40px;background-color: #FFE241; width: 30%;}
+div.contateTxt{margin-left: 4%;}
+.txtContato{
+    color: black; 
+    font-size: 30px;
+    margin: 4%;
+    margin-top: 60px;
+    margin-bottom: 10%;
+    background-color: rgba(255, 226, 65, 62%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 70%;
+    height: 45vb;
+}
+div.txtContato>h1{
+    margin-left: 4%;
+    width: 100%;
+}
+div.txtContato>p{
+    margin-left: 4%;
+}
+.bold{font-weight: 400;}
+.boxQst{
+    color: black; 
+    font-size: 30px;
+    background-color: rgba(255, 226, 65, 62%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 70%;
+    height: 5vb;
+    border: none;
+}
+.boxMsg{
+    color: black; 
+    font-size: 30px;
+    background-color: rgba(255, 226, 65, 62%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 70%;
+    height: 20vb;
+    word-break: break-word;
+    border: none;
+}
+.btnEnviar{
+    font-size: 30px;
+    background-color: rgba(255, 226, 65);
+    border-radius: 25px;
+    width: 25%;
+    height: 7vb;
+    border: none;
+}
+.btnComprar{
+    font-size: 40px;
+    background-color: rgba(255, 226, 65);
+    border-radius: 25px;
+    width: 75%;
+    height: 9vb;
+    border: none;
+}
+.yBox{
+    font-size: 20px;
+    background-color: #FFE241;
+    width: 65%;
+    height: 8vb;
+    vertical-align: middle;
+    line-height: 8vb;
+}
+.yBox>h1{
+    margin: 4%;
+    margin-top: 0%;
+}
+.txtInicio2{
+    color: black; 
+    font-size: 55px;
+    background-color: rgba(255, 226, 65, 62%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.txtAbout{
+    color: black; 
+    font-size: 35px;
+    background-color: rgba(255, 226, 65, 62%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 70%;
+}
+.txtProduto{
+    color: black; 
+    font-size: 35px;
+    background-color: rgba(255, 226, 65, 62%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 70%;
+    height: 45vb;
+}
+.titProduto{
+    height: 10vb;
+    vertical-align: middle;
+}
+.txtProDsc{
+    color: black; 
+    font-size: 35px;
+    background-color: rgba(255, 226, 65, 62%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 90%;
+    height: 35vb;
+    vertical-align: middle;
+}
+.barPro{
+    color: black; 
+    font-size: 35px;
+    background-color: rgba(255, 226, 65, 62%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 95%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 25vb;
+    vertical-align: middle;
+}
+.yBoxPro{
+    font-size: 12px;
+    background-color: #FFE241;
+    width: max-content; height: 3vb;
+    vertical-align: middle;
+    margin-left: 2%;
+}
+
+/*Formataçao de estrutura*/
+table{
+    width: 100%;
+    height: 100vb;
+    border-spacing: 0;
+}
+body{margin: 0;}
+.tdRodape{
+    vertical-align: middle;
+    text-align: center;
+    width: 10%;
+}
+.trRodape{height: 14vb; width: 100%;background-color: rgba(255, 226, 65, 62%);}
+
+.tdInicioTxt{
+    width: 40%;
+}
+.tdInicioTxt2{
+    text-align: center;
+}
+.logo{
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+.barSel{
+    position: absolute;
+    background-color: black;
+    vertical-align: bottom;
+    height: 5vb;
+    width: 45%;
+    text-align: left;
+    display: inline-block;
+    top: 9%;
+    margin-left: 3%;
+}
+.tdImgInicio{
+    text-align: center;
+}
+.tdImgInicio>img{
+    width: 70%;
+    height: 70vb;
+}
+.colSpc{width: 5%;}
+.tdQuestions{
+    height: 15vb;
+}
+.tdBtn{
+    height: 15vb;
+}
+.rowScp{
+    height: 15vb;
+}
+.rowTxtAbout{
+    height: 10vb;
+}
+.trAboutContent{
+    vertical-align: top;
+}
+.tdAboutTxt{
+    vertical-align: top;
+}
+.tdProdutoTxt{
+    vertical-align: middle;
+}
+.tdBtnComprar{
+    text-align: center;
+}
+.trProduto{
+    height: 5vb;
+}
+.tdProDsc{
+    width: 45%;
+}
+.trFim{
+    background-color: #000000;
+    width: 100%;
+    height: 20vb;
+}
+.txtAlignRight{
+    text-align: right;
+}
+.txtAlignCenter{
+    text-align: center;
+}
+
+/*Formataçao de imagem*/
+
+.avatar{text-align: center; width: 10%;}
+.img3B{
+    width: 70%;
+    margin-top: 20%;
+}
+.imgProduto{
+    width: 30%;
+    height: 30vb;
+}
+.imgPro{
+    margin-left: 4%;
+    width: 10%;
+    height: 16vb;
+}
+
+/*Eventos*/
+.txtBarSel:hover{
+    color: #FFE241;
+}
+
+/*Produtos Dropdown*/
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+ul li {display: inline-block;}
+ul li:hover {background: #000000;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 250px;
+  display: none;
+}
+ul li ul li {
+    background: #000000;
+    display: block;
+  }
+  ul li ul li .produtosHref {display:block !important;}
+  ul li ul li:hover {background: #666;}
+.txtBarSel{
+    text-decoration: none;
+  }
