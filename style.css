@@ -196,7 +196,7 @@ body{margin: 0;}
     text-align: center;
 }
 .tdImgInicio>img{
-    width: 70%;
+    width: auto%;
     height: 70vb;
 }
 .colSpc{width: 5%;}
